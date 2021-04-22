@@ -46,8 +46,7 @@ def main():
     
     if st.button('Predict'):
         output = predict_price(ct, sc, int(years_old), float(pp), int(kms_driven), fuel_type, seller_type, transmission, int(owner))
-        # st.success('The selling price of this car will be approximately {} lakhs'.format(round(output, 2)))
-        st.success(output)
+        st.success('The selling price of this car will be approximately {} lakhs'.format(round(output, 2)))
 
 if __name__ == '__main__':
     main()
