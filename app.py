@@ -37,7 +37,7 @@ def main():
     st.markdown(html_temp, unsafe_allow_html=True)
 
     years_old = st.text_input('How many years old ?', 'Enter number of years')
-    pp = st.text_input('What is the current market value of the car??', 'Enter price')
+    pp = st.text_input('What is the current market value of the car?', 'Enter price in lacs')
     kms_driven = st.text_input('How many kilometers the car has driven?', 'Enter distance in kilometers')
     fuel_type = st.text_input('What is the type of fuel used?', 'CNG/Diesel/Petrol')
     seller_type = st.text_input('What is the type of seller?', 'Dealer/Individual')
