@@ -1,2 +1,2 @@
 # streamlit-ml-car-prediction
-[Web-app link](https://car-price-predict-streamlit.herokuapp.com/)
+[Car Price Prediction webapp](https://car-price-predict-streamlit.herokuapp.com/)
