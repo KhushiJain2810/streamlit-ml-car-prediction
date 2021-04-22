@@ -7,7 +7,7 @@ import pandas as pd
 # from sklearn.preprocessing import StandardScaler
 
 # reads .pkl file and loads the trained model in app.py file
-model, ct, sc = pickle.load(open('D:/JUPYTER/YAY/DEPLOYMENT/random_forst_regression_model.pkl', 'rb'))
+model, ct, sc = pickle.load(open('random_forst_regression_model.pkl', 'rb'))
 
 def predict_price(ct, sc, years_old, pp, kms_driven, fuel_type, seller_type, transmission, owner):
     
